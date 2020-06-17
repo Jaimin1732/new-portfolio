@@ -13,6 +13,7 @@ html, body {
 }
 
 
+
 #home {
     background: url(img/Web\ 1920\ –\ 1.png) no-repeat center fixed;
     display: table;
@@ -73,5 +74,12 @@ html, body {
 .about p {
     font-size: 30px;
 }
+
+#portfolio {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+}
+
+
 
 
