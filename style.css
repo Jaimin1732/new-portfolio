@@ -56,6 +56,10 @@ html, body {
     padding-bottom: 150px;
 }
 
+.btn a {
+    text-decoration: none;
+    color: black;
+}
 
 
 #about {
@@ -79,6 +83,17 @@ html, body {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     padding-top: 50px;
 }
+
+.fa-twitter {
+    color: rgb(0, 191, 255);
+    font-size: 40px;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 40px;
+}
+
 
 
 
