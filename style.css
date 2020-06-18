@@ -112,6 +112,22 @@ html, body {
 }
 
 
+@media (min-width: 0px) and (max-width: 991.98px) {
+    .full-size {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #about img {
+        width: 100%;
+    }
+    
+    .about {
+    margin-top: 70px;
+    }
+}
+
 
 
 
