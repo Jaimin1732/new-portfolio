@@ -84,6 +84,14 @@ html, body {
     padding-top: 50px;
 }
 
+.padding {
+    padding-bottom: 2rem;
+}
+
+.social a {
+    padding: 3rem;
+}
+
 .fa-twitter {
     color: rgb(0, 191, 255);
     font-size: 40px;
