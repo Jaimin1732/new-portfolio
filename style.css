@@ -1,3 +1,9 @@
+html,body,nav, .footer {
+    background: url(img/Web\ 1920\ –\ 1.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -16,15 +22,11 @@ html, body {
     cursor: pointer;
 }
 
-
-
 #home {
-    background: url(img/Web\ 1920\ –\ 1.png) no-repeat center fixed;
     display: table;
     height: 100%;
     position: relative;
     width: 100%;
-    background-size: cover;
 }
 
 .landing-text {
@@ -127,7 +129,3 @@ html, body {
     margin-top: 70px;
     }
 }
-
-
-
-
