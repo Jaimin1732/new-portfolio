@@ -73,8 +73,10 @@ html, body {
     margin-bottom: 100px;
 }
 
+
 .programmer {
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);  
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 15px;  
 }
 
 .about h2 {
@@ -88,6 +90,15 @@ html, body {
 #portfolio {
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     padding-top: 50px;
+}
+
+.card {
+    width: 80%;
+    margin-left: 10rem;
+}
+
+iframe {
+    height: 50rem;
 }
 
 .padding {
