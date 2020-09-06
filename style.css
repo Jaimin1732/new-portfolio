@@ -3,6 +3,9 @@ html,body,nav, .footer {
     background-size: cover;
 }
 
+#landing, #nav {
+    display: none;
+}
 
 html, body {
     height: 100%;
@@ -16,6 +19,10 @@ html, body {
 }
 .nav-link {
     font-size: 1.1em !important;
+}
+
+.contact_me {
+    border: none;
 }
 
 .contact:hover {
@@ -127,5 +134,9 @@ html, body {
     
     .about {
     margin-top: 70px;
+    }
+
+    .hover-effect:hover {
+        transform: scale(1.05);
     }
 }
