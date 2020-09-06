@@ -3,7 +3,7 @@ html,body,nav, .footer {
     background-size: cover;
 }
 
-#landing, #nav {
+#landing, #nav, #first-website, #second-website, #portfolio {
     display: none;
 }
 
@@ -120,6 +120,10 @@ html, body {
     font-size: 40px;
 }
 
+.hover-effect:hover {
+    transform: scale(1.05);
+}
+
 
 @media (min-width: 0px) and (max-width: 991.98px) {
     .full-size {
@@ -134,9 +138,5 @@ html, body {
     
     .about {
     margin-top: 70px;
-    }
-
-    .hover-effect:hover {
-        transform: scale(1.05);
     }
 }

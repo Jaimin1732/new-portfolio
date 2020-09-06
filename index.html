@@ -21,9 +21,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item font-weight-bold"><a href="#home" class="nav-link">Home</a></li>
-            <li class="nav-item font-weight-bold"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-item font-weight-bold"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item font-weight-bold hover-effect"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item font-weight-bold hover-effect"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item font-weight-bold hover-effect"><a href="#portfolio" class="nav-link">Portfolio</a></li>
             <li class="nav-item font-weight-bold hover-effect"><button class="bg-danger ml-3 full-size contact_me"><a class=" text-white contact nav-link" data-toggle="modal" data-target="#Contact_Me">Contact Me</a></button></li>
           </ul>
         </div>
@@ -63,29 +63,29 @@
     <div class="container-fluid">
       <div class="row">
         
-        <div class="col-md-12 col-lg-6 ">
+        <div class="col-md-12 col-lg-6 " id="first-website">
           <div class="card mb-3">
-            <img class="card-img-top p-2" src="img/old-resume.jpg" alt= "First website Image">
-            <div class="card-body pt-5">
+            <img class="card-img-top p-2 pb-4" src="img/old-resume.jpg" alt= "First website Image">
+            <div class="card-body pt-auto">
               <h4 class="card-title text-center font-weight-bold">First Website</h4>
               <p class="card-text text-center">This is my first ever website I made to be able to be presented as to my interviewer for them to check it out and present things that I know about front-end web development.</p>
               <div class="row">
-                <a href="https://jaimin-old-portfolio.netlify.app" target="_blank" class="btn btn-danger d-block mt-5 text-warning font-weight-bold col-lg-12 col-xl-5 mr-auto hover-effect" > <i class="fas fa-angle-right pr-1"></i> Go to the website!</a>
-                <a href="https://github.com/Jaimin1732/old-portfolio" target="_blank" class="btn btn-danger d-block mt-5 text-white font-weight-bold col-lg-12 col-xl-5 ml-auto hover-effect" ><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                <a href="https://jaimin-old-portfolio.netlify.app" target="_blank" class="btn btn-danger d-block mt-5 text-warning font-weight-bold col-lg-12 col-xl-5 mr-auto hover-effect ml-lg-2" > <i class="fas fa-angle-right pr-1"></i> Go to the website!</a>
+                <a href="https://github.com/Jaimin1732/old-portfolio" target="_blank" class="btn btn-danger d-block mt-5 text-white font-weight-bold col-lg-12 col-xl-5 ml-auto hover-effect mr-lg-2" ><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
               </div>
             </div>
             </div>
         </div>
         
-        <div class="col-md-12 col-lg-6">
+        <div class="col-md-12 col-lg-6" id="second-website">
           <div class="card mb-3">
-            <img class="card-img-top p-2" src="img/resume.jpg" alt= "Second website Image">
-            <div class="card-body pt-5">
+            <img class="card-img-top p-2" src="img/Jaimin.jpg" alt= "Second website Image">
+            <div class="card-body pt-auto">
               <h4 class="card-title text-center font-weight-bold">Second Website</h4>
               <p class="card-text text-center">This website was made by me to practice all my other skills to see how beautiful I can make this website. I decided to make this website with fully HTML5, CSS3, & BootStrap 4.</p>
               <div class="row">
-                <a href="https://jaimin-portfolio.netlify.app/" target="_blank" class="btn btn-danger d-block mt-5 text-warning font-weight-bold col-lg-12 col-xl-5 mr-auto hover-effect disabled" > <i class="fas fa-angle-right pr-1"></i> Go to the website!</a>
-                <a href="https://github.com/Jaimin1732/new-portfolio" target="_blank" class="btn btn-danger d-block mt-5 text-white font-weight-bold col-lg-12 col-xl-5 ml-auto hover-effect" ><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                <a href="https://jaimin-portfolio.netlify.app/" target="_blank" class="btn btn-danger d-block mt-5 text-warning font-weight-bold col-lg-12 col-xl-5 mr-auto hover-effect disabled ml-2" > <i class="fas fa-angle-right pr-1"></i> Go to the website!</a>
+                <a href="https://github.com/Jaimin1732/new-portfolio" target="_blank" class="btn btn-danger d-block mt-5 text-white font-weight-bold col-lg-12 col-xl-5 ml-auto hover-effect mr-2" ><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
               </div>
             </div>
           </div>
@@ -165,11 +165,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#landing").slideToggle(700);
-        $("#nav").show(700);
-      });
-    </script>
+    <script src="jQuery.js"></script>
   </body>
 </html>
