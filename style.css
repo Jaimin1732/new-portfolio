@@ -3,7 +3,7 @@ html,body,nav, .footer {
     background-size: cover;
 }
 
-#landing, #nav, #first-website, #second-website, #portfolio {
+#landing, #nav, #portfolio {
     display: none;
 }
 
@@ -123,6 +123,33 @@ html, body {
 .hover-effect:hover {
     transform: scale(1.05);
 }
+
+.txt-b {
+    border-bottom: 2px solid #adadad;
+}
+.txt-b input,
+.txt-b textarea {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.txt-b input:focus,
+.txt-b textarea:focus {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+} 
+
+.form-control::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.425); font-weight: bold;}  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: rgba(0, 0, 0, 0.425); font-weight: bold;}  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: rgba(0, 0, 0, 0.425); font-weight: bold;}  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: rgba(0, 0, 0, 0.425); font-weight: bold;}  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: rgba(0, 0, 0, 0.425); font-weight: bold;}  /* Microsoft Edge */
 
 
 @media (min-width: 0px) and (max-width: 991.98px) {
